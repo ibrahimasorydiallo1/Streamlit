@@ -21,8 +21,8 @@ st.markdown(
     Je m'appelle **Ibrahima Sory DIALLO**, je suis étudiant en 2ème année de bachelor informatique 
     à l'ESGI de Lyon et alternant chez **APICIL**. Je suis développeur *Snowflake et streamlit*. 
     J'ai obtenu diverses certifications comme: 
-    -   ***MuleSoft Developer Level 1***
-    -   ***AWS Cloud Quest: Cloud Practitioner*** \n
+    -   ***[MuleSoft Developer Level 1](https://www.salesforce.com/trailblazer/ibrahimasory)***
+    -   ***[AWS Cloud Quest: Cloud Practitioner](https://www.credly.com/go/keFiyM4aGNl4aXCLnRleyw)*** \n
     Pendant cette alternance chez APICIL j'ai acquis beaucoup de compétences
     Cette magnifique expérience dans la data où j'ai eu la chance de faire.
     Dynamique, proactif, rigoureux et relationnel , j'ai l'ambition de réussir chez APICIL qui est
@@ -42,4 +42,10 @@ st.markdown(
         forums](https://discuss.streamlit.io)
 """
 )
+
+with st.sidebar:
+    st.page_link("pages/project.py",
+                  label="Mes projets",
+                  icon="📅"
+                  )
 
