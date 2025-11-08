@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(
-    page_title="Mes plots",
-    page_icon="📖",
-    layout="wide",
-    initial_sidebar_state="auto",
-)
-st.sidebar.title("💎 ISD")
+import settings.tools as tools
+
+tools.mise_en_page()
+
 st.subheader('Culture foot !⚽', divider="rainbow")
 df_base = pd.read_csv("./assets/fichiers/past-data.csv")
 
@@ -35,3 +32,4 @@ if championnat:
                             (df_infos['Season'].str[-2:].astype(int).between(17, 18))
                             ].reset_index(drop=True)
     st.write(goals_stats)
+    st.table

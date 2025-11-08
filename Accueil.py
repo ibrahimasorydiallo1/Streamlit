@@ -1,11 +1,8 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Mon portfolio",
-    page_icon="🌕",
-    layout="wide",
-    initial_sidebar_state="auto",
-)
+import settings.tools as tools
+
+tools.mise_en_page()
 # st.sidebar.image("assets/img/profile_photo.jpg")
 st.header('Projet portfolio *by streamlit*', divider="rainbow")
 st.subheader("Ibrahima Sory DIALLO", divider="rainbow")
@@ -54,10 +51,3 @@ st.markdown(
         forums](https://discuss.streamlit.io)
 """
 )
-
-with st.sidebar:
-    st.page_link("pages/Projets et certifications.py",
-                  label="Mes projets",
-                  icon="📅"
-                  )
-

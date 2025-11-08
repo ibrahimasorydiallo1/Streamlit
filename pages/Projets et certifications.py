@@ -1,12 +1,8 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Mes projets",
-    page_icon="📖",
-    layout="wide",
-    initial_sidebar_state="auto",
-)
-st.sidebar.title("💎 ISD")
+import settings.tools as tools
+
+tools.mise_en_page()
 st.subheader('Mes projets:', divider="rainbow")
 
 st.markdown("""Je vous présente mon ***[portfolio](https://isd.ydiallo.com/)***""")
