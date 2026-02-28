@@ -6,7 +6,7 @@ st.set_page_config(page_title="Portfolio | Ibrahima Sory DIALLO", page_icon="ðŸš
 
 st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>")
 
-st.logo("assets\img\logo.png", size="large")
+st.logo("assets/img/logo.png", size="large")
 
 # --- CUSTOM CSS ---
 st.markdown("""
