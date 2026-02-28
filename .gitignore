@@ -1,0 +1,5 @@
+.vscode/
+.conda/
+__pycache__/
+*.pyc
+*.vscode/
