@@ -37,7 +37,7 @@ if selected == "About":
     with col2:
         st.subheader("Ibrahima Sory DIALLO")
         st.markdown(f"""
-        🚀 **Data Scientist & AI Project Manager**
+        🚀 **Ingénieur Cloud - Data Scientist & AI Project Manager**
         
         Passionné par l'impact business de l'IA, j'accompagne les entreprises dans la mutation vers la GenAI : du cadrage stratégique au déploiement technique de solutions à forte valeur ajoutée.
 
@@ -52,14 +52,6 @@ if selected == "About":
         🔹🛡️ Fiabilité & Observabilité : Monitoring temps réel via LangSmith et évaluation rigoureuse avec DeepEval pour garantir des réponses sûres, précises et sans hallucinations.
 
         🔹📊 Pilotage & ROI : Analyse de faisabilité technique et optimisation des processus data pour assurer une transformation digitale mesurable et durable.
-
-        Stack Technique : 
-
-        🔹 Langages & Data : Python (Pandas, Scikit-Learn, Seaborn, Matplotlib), SQL.
-
-        🔹 GenAI & LLMops : LangChain, LangGraph, LangSmith, DeepEval.
-
-        🔹 Déploiement : Streamlit, AWS, Snowflake.
         """)
         st.info("📍 Basé à Lyon | Disponible pour stage(4-5 mois) dès le 27 Avril 2026 | Mobilité: Auvergne Rhône-Alpes - Ile de France")
 
@@ -299,6 +291,7 @@ elif selected == "Projects":
 # --- SECTION : CERTIFICATIONS ---
 elif selected == "Certifications":
     st.header("Certifications & Distinctions 🏆", divider="green")
+    st.info("Les certifications en couleur verte ont été obtenues et celles en orange sont en cours de préparation.")
     
     # Création de 3 catégories pour mieux structurer
     tab1, tab2, tab3 = st.tabs(["🤖 Intelligence Artificielle", "☁️ Cloud & Data", "📈 Gestion & Langues"])
