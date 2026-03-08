@@ -1,7 +1,7 @@
 # 🚀 Ibrahima Sory DIALLO
 ### Ingénieur Data & Cloud | Spécialiste GenAI & RAG
 
-[Voir l'application ici](https://isdportfolio.streamlit.app/)
+[Voir le portfolio ici](https://isdportfolio.streamlit.app/)
 
 👋 Bienvenue sur mon profil ! Je suis passionné par l'automatisation des infrastructures Cloud et l'industrialisation des solutions d'Intelligence Artificielle.
 
